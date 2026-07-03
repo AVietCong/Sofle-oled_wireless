@@ -1,70 +1,7 @@
-layout: {zmk_keyboard: sofle}
+layout: {zmk_keyboard: sofle_ergomech}
 layers:
-  default:
-  - '`'
-  - '1'
-  - '2'
-  - '3'
-  - '4'
-  - '5'
-  - '6'
-  - '7'
-  - '8'
-  - '9'
-  - '0'
-  - '='
-  - ESCAPE
-  - Q
-  - W
-  - E
-  - R
-  - T
-  - Y
-  - U
-  - I
-  - O
-  - P
-  - '-'
-  - TAB
-  - {t: A, h: LEFT GUI}
-  - {t: S, h: LEFT ALT}
-  - {t: D, h: LEFT SHIFT}
-  - {t: F, h: LEFT CONTROL}
-  - G
-  - H
-  - {t: J, h: RIGHT CONTROL}
-  - {t: K, h: RIGHT SHIFT}
-  - {t: L, h: RIGHT ALT}
-  - {t: ;, h: Sft+RIGHT GUI}
-  - ''''
-  - LEFT SHIFT
-  - Z
-  - X
-  - C
-  - V
-  - B
-  - N
-  - M
-  - ','
-  - .
-  - /
-  - RSHFT
-  - MUTE
-  - LEFT GUI
-  - LALT
-  - LCTRL
-  - lower
-  - RETURN
-  - SPACE
-  - raise
-  - BACKSPACE
-  - DELETE
-  - '?'
-  - ENTER
-  - RIGHT
-  - UP
-  - LEFT
-  - DOWN
+  default: ['`', '1', '2', '3', '4', '5', '6', '7', '8', '9', '0', '', ESC, Q, W, E, R, T, Y, U, I, O, P, BSPC, TAB, A, S, D, F, G, H, J, K, L, ;, '''', LSHFT, Z,
+    X, C, V, B, N, M, ',', ., /, RSHFT, MUTE, LGUI, LALT, LCTRL, lower, RET, SPACE, raise, RCTRL, RALT, RGUI, ENTER, RIGHT, UP, LEFT, DOWN]
   lower:
   - '&studio_unlock'
   - F1
@@ -98,14 +35,14 @@ layers:
   - '%'
   - ^
   - '&'
-  - KP MULTIPLY
+  - '*'
   - (
   - )
   - '|'
   - {t: ▽, type: trans}
   - '='
   - '-'
-  - KP PLUS
+  - +
   - '{'
   - '}'
   - '['
@@ -146,7 +83,7 @@ layers:
   - {t: ▽, type: trans}
   - INS
   - PSCRN
-  - MENU
+  - CMENU
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - PG UP
@@ -202,7 +139,7 @@ layers:
   - {t: BT, h: '2'}
   - {t: BT, h: '3'}
   - {t: BT, h: '4'}
-  - W
+  - ''
   - ''
   - ''
   - ''
