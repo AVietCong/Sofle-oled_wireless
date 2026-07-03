@@ -1,12 +1,11 @@
-layout: {qmk_keyboard: sofle/rev1}
 layers:
   default:
-  - ['`', '1', '2', '3', '4', '5', '6', '7', '8', '9']
-  - ['0', '', ESC, Q, W, E, R, T, Y, U]
-  - [I, O, P, BSPC, TAB, A, S, D, F, G]
-  - [H, J, K, L, ;, '''', LSHFT, Z, X, C]
-  - [V, B, MUTE, '', N, M, ',', ., /, RSHFT]
-  - [LGUI, LALT, LCTRL, lower, RET, SPACE, raise, RCTRL, RALT, RGUI]
+  - ['`', '1', '2', '3', '4', '5', '6', '7', '8', '9', '0', '']
+  - [ESC, Q, W, E, R, T, Y, U, I, O, P, BSPC]
+  - [TAB, A, S, D, F, G, H, J, K, L, ;, '''']
+  - [LSHFT, Z, X, C, V, B, N, M, ',', ., /, RSHFT]
+  - [MUTE, LGUI, LALT, LCTRL, lower, RET, SPACE, raise, RCTRL, RALT, RGUI, ENTER]
+  - [RIGHT, UP ARROW, LEFT, DOWN]
   lower:
   - - {t: ▽, type: trans}
     - F1
@@ -18,31 +17,27 @@ layers:
     - F7
     - F8
     - F9
-  - [F10, F11, '`', '1', '2', '3', '4', '5', '6', '7']
-  - - '8'
-    - '9'
-    - '0'
-    - F12
-    - {t: ▽, type: trans}
+    - F10
+    - F11
+  - ['`', '1', '2', '3', '4', '5', '6', '7', '8', '9', '0', F12]
+  - - {t: ▽, type: trans}
     - '!'
     - '@'
     - '#'
     - $
     - '%'
-  - - ^
+    - ^
     - '&'
-    - KP MULTIPLY
+    - '*'
     - (
     - )
     - '|'
-    - {t: ▽, type: trans}
+  - - {t: ▽, type: trans}
     - '='
     - '-'
-    - KP PLUS
-  - - '{'
+    - +
+    - '{'
     - '}'
-    - {t: ▽, type: trans}
-    - {t: ▽, type: trans}
     - '['
     - ']'
     - ;
@@ -52,6 +47,7 @@ layers:
   - - {t: ▽, type: trans}
     - {t: ▽, type: trans}
     - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
     - {type: held}
     - {t: ▽, type: trans}
     - {t: ▽, type: trans}
@@ -59,6 +55,8 @@ layers:
     - {t: ▽, type: trans}
     - {t: ▽, type: trans}
     - {t: ▽, type: trans}
+    - A
+  - [B, C, D, E]
   raise:
   - - BT CLR
     - {t: BT, h: '0'}
@@ -70,9 +68,9 @@ layers:
     - {t: ▽, type: trans}
     - {t: ▽, type: trans}
     - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
   - - {t: ▽, type: trans}
-    - {t: ▽, type: trans}
-    - {t: ▽, type: trans}
     - INS
     - PSCRN
     - CMENU
@@ -80,29 +78,27 @@ layers:
     - {t: ▽, type: trans}
     - PG UP
     - {t: ▽, type: trans}
-  - - UP
+    - UP
     - {t: ▽, type: trans}
     - '0'
     - {t: ▽, type: trans}
-    - {t: ▽, type: trans}
+  - - {t: ▽, type: trans}
     - LALT
     - LCTRL
     - LSHFT
     - {t: ▽, type: trans}
     - CLCK
-  - - PG DN
+    - PG DN
     - LEFT
     - DOWN
     - RIGHT
     - DEL
     - BSPC
-    - {t: ▽, type: trans}
+  - - {t: ▽, type: trans}
     - UNDO
     - CUT
     - COPY
-  - - PASTE
-    - {t: ▽, type: trans}
-    - {t: ▽, type: trans}
+    - PASTE
     - {t: ▽, type: trans}
     - {t: ▽, type: trans}
     - {t: ▽, type: trans}
@@ -111,6 +107,7 @@ layers:
     - {t: ▽, type: trans}
     - {t: ▽, type: trans}
   - - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
     - {t: ▽, type: trans}
     - {t: ▽, type: trans}
     - {t: ▽, type: trans}
@@ -120,6 +117,8 @@ layers:
     - {t: ▽, type: trans}
     - {t: ▽, type: trans}
     - {t: ▽, type: trans}
+    - A
+  - [B, C, D, E]
   adjust:
   - - BT CLR
     - {t: BT, h: '0'}
@@ -131,11 +130,13 @@ layers:
     - ''
     - ''
     - ''
-  - ['', '', EP TOG, RGB HUD, RGB HUI, RGB SAD, RGB SAI, RGB EFF, '', '']
-  - ['', '', '', '', '', RGB BRD, RGB BRI, '', '', '']
-  - ['', '', '', '', '', '', '', '', '', '']
-  - ['', '', RGB TOG, '', '', '', '', '', '', '']
-  - - ''
+    - ''
+    - ''
+  - [EP TOG, RGB HUD, RGB HUI, RGB SAD, RGB SAI, RGB EFF, '', '', '', '', '', '']
+  - ['', RGB BRD, RGB BRI, '', '', '', '', '', '', '', '', '']
+  - ['', '', '', '', '', '', '', '', '', '', '', '']
+  - - RGB TOG
+    - ''
     - ''
     - ''
     - {type: held}
@@ -145,3 +146,5 @@ layers:
     - ''
     - ''
     - ''
+    - A
+  - [B, C, D, E]
