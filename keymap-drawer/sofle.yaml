@@ -43,14 +43,13 @@ layers:
   - C
   - V
   - B
-  - MUTE
-  - ''
   - N
   - M
   - ','
   - .
   - /
   - RSHFT
+  - MUTE
   - LEFT GUI
   - LALT
   - LCTRL
@@ -61,6 +60,11 @@ layers:
   - BACKSPACE
   - DELETE
   - '?'
+  - ENTER
+  - RIGHT
+  - UP
+  - LEFT
+  - DOWN
   lower:
   - '&studio_unlock'
   - F1
@@ -104,13 +108,12 @@ layers:
   - KP PLUS
   - '{'
   - '}'
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
   - '['
   - ']'
   - ;
   - ':'
   - \
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -122,6 +125,11 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
+  - A
+  - B
+  - C
+  - D
+  - E
   raise:
   - BT CLR
   - {t: BT, h: '0'}
@@ -178,11 +186,15 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
   - {type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
+  - A
+  - B
+  - C
+  - D
+  - E
   adjust:
   - BT CLR
   - {t: BT, h: '0'}
@@ -226,17 +238,16 @@ layers:
   - ''
   - ''
   - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
   - RGB TOG
   - ''
   - ''
   - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
   - {type: held}
   - ''
   - ''
@@ -244,3 +255,8 @@ layers:
   - ''
   - ''
   - ''
+  - A
+  - B
+  - C
+  - D
+  - E
